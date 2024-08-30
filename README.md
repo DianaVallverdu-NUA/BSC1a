@@ -13,7 +13,7 @@ List of projects that are relevant to BSC1a
 
 - [BSC1a-CSS](https://github.com/DianaVallverdu-NUA/BSC1a-CSS) - Introduction to CSS
 
-- [BSC1a-flexbox]() - Use of flexbox and media queries
+- [BSC1a-flexbox](https://github.com/DianaVallverdu-NUA/BSC1a-flexbox) - Use of flexbox and media queries
 
 
 ## JS Workshops
