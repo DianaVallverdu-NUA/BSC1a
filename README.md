@@ -22,7 +22,7 @@ List of projects that are relevant to BSC1a
 
 - [BSC1a-animating]() - Modifying the CS from JS
 
-- [BSC1a-draggable_list]()
+- [BSC1a-draggable_list](https://github.com/DianaVallverdu-NUA/BSC1a-draggable_list)
 
 - [BSC1a-audio_player](https://github.com/DianaVallverdu-NUA/BSC1a-audio_player)
 
