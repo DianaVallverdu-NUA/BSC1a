@@ -18,7 +18,7 @@ List of projects that are relevant to BSC1a
 
 ## JS Workshops
 
-- [BSC1a-buttons]()
+- [BSC1a-buttons](https://github.com/DianaVallverdu-NUA/BSC1a-buttons)
 
 - [BSC1a-animating]() - Modifying the CS from JS
 
