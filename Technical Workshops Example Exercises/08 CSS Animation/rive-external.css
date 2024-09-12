@@ -1,0 +1,61 @@
+body {
+    width:90%;
+    margin: 2em auto;
+    color: rgb(58,103,103);
+}
+
+h1{
+    font: 60px helvetica;
+}
+
+h2{
+    font:30px helvetica;
+    text-align: center;
+}
+
+header, footer {
+    height:minmax(100px, 25%);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(221, 225, 225);
+    border: 2px solid rgb(58, 103, 103);
+    text-align: center;
+    /* Adding in our header website placement, spanning the entire first row of our grid */
+
+}
+
+article{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(153, 200, 203);
+    border: 2px solid rgb(58, 103, 103);
+}
+
+#bigBox{
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+.stretchTop{
+    grid-column:2/5;
+    grid-row: 1;
+}
+.stretchBottom{
+    grid-column:2/5;
+    grid-row:4/5;
+}
+
+
+
+section{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+#canvas{
+    width:100%;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    object-fit: cover;
+}

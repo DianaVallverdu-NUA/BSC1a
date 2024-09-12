@@ -1,0 +1,33 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 2em auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif;
+    color: rgb(58,103,103);
+}
+
+.container > article {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(153, 200, 203);
+    border: 2px solid rgb(58, 103, 103);
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+/* Adding in a new header selector */
+header {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(221, 225, 225);
+    border: 2px solid rgb(58, 103, 103);
+    text-align: center;
+    /* Adding in our header website placement, spanning the entire first row of our grid */
+    grid-column: 1/5;
+}

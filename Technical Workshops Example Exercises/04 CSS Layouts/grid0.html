@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>grid0</title>
+    <style>
+        body {
+            width: 90%;
+            max-width: 900px;
+            margin: 2em auto;
+            font: .9em/1.2 Arial, Helvetica, sans-serif;
+            color: rgb(58,103,103);
+        }
+
+        .container > div {
+            border-radius: 5px;
+            padding: 10px;
+            background-color: rgb(153, 200, 203);
+            border: 2px solid rgb(58, 103, 103);
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr) 500px;
+            gap: 15px;
+            grid-auto-rows: 100px;
+        }
+
+    </style>
+  </head>
+
+<body>
+    <h1>CSS Grid Practical Example</h1>
+
+    <div class="container">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+        <div>Six</div>
+        <div>Seven</div>
+
+    </div>
+
+</body>
+
+</html>
