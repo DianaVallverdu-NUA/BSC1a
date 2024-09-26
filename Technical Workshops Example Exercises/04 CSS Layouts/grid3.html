@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>grid3</title>
+    <style>
+        body {
+            width: 90%;
+            max-width: 900px;
+            margin: 2em auto;
+            font: .9em/1.2 Arial, Helvetica, sans-serif;
+            color: rgb(58,103,103);
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            grid-auto-rows: minmax(100px, auto);
+            grid-template-areas: 
+            "header header header header"
+            "bigBox content content content"
+            "bigBox content content content"
+            "footer footer footer footer"
+            ;
+        }
+        
+        /* changed the class indicator here to show that 
+        <articles> are now following the .articleGrid subclass. */
+        .articleGrid > article {
+            border-radius: 5px;
+            padding: 10px;
+            background-color: rgb(153, 200, 203);
+            border: 2px solid rgb(58, 103, 103);
+            
+        }
+
+        /* Created new class for subgrid within <section> element */
+        .articleGrid {
+            grid-area: content;
+            display: grid;
+            grid-template-columns: subgrid;
+            grid-auto-rows: minmax(100px,150px);
+            gap: inherit;
+            
+        }
+
+        header {
+            border-radius: 5px;
+            padding: 10px;
+            background-color: rgb(221, 225, 225);
+            border: 2px solid rgb(58, 103, 103);
+            text-align: center;
+            grid-area: header;
+
+        }
+
+        .bigBox{
+            grid-area: bigBox;
+            border-radius: 5px;
+            padding: 10px;
+            border: 2px solid rgb(58, 103, 103);
+        }
+
+        footer {
+            border-radius: 5px;
+            padding: 10px;
+            background-color: rgb(221, 225, 225);
+            border: 2px solid rgb(58, 103, 103);
+            text-align: center;
+            grid-area: footer;
+        }
+
+    </style>
+  </head>
+
+    <body>
+        <div class ="container">
+            <header>
+                <h1>Latest Blog Posts</h1>
+            </header>
+
+
+            <section class = "bigBox">
+                <h2>Section Title</h2>
+                <p>Section Text Here!</p>
+            </section>
+
+
+            
+            <!-- New Section containing subgrid starts here-->
+            <section class="articleGrid">
+                <article>
+                    <h2>Article One</h2>
+                    <p>Article preview text here!</p>
+                </article>
+                <article>
+                    <h2>Article Two</h2>
+                    <p>Article preview text here!</p>
+                </article>
+                <article>
+                    <h2>Article Three</h2>
+                    <p>Article preview text here!</p>
+                </article>
+                <article>
+                    <h2>Article Four</h2>
+                    <p>Article preview text here!</p>
+                </article>
+                <article>
+                    <h2>Article Five</h2>
+                    <p>Article preview text here!</p>
+                </article>
+                <article>
+                    <h2>Article Six</h2>
+                    <p>Article preview text here!</p>
+                </article>
+                <article>
+                    <h2>Article Seven</h2>
+                    <p>Article preview text here!</p>
+                </article>
+            </section>
+            <!-- New section containing subgrid ends here-->
+            
+            
+            <footer>
+                <h2>Footer</h2>
+            </footer>
+
+        </div>
+
+    </body>
+
+ </html>
