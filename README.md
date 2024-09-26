@@ -1,41 +1,52 @@
-# BSC1a
+# BSC1a Technical Workshops
 
-List of projects that are relevant to BSC1a
+Example files for creative computing technical workshops
 
-## Introductory Workshops
-- [BSC1a-git](https://github.com/DianaVallverdu-NUA/BSC1a-git) - Introduction to git
+## Introduction to HTML
 
-## HTML Workshops
+- 
 
-- [BSC1a-HTML](https://github.com/DianaVallverdu-NUA/BSC1a-HTML)
+## Introduction to CSS
 
-## CSS Workshops
+- 
 
-- [BSC1a-CSS](https://github.com/DianaVallverdu-NUA/BSC1a-CSS) - Introduction to CSS
+## Introduction to JavaScript
 
-- [BSC1a-gallery](https://github.com/DianaVallverdu-NUA/BSC1a-gallery) - Use of media queries to build a gallery
-
-- [BSC1a-CSS_examples](https://github.com/DianaVallverdu-NUA/BSC1a-CSS_examples) - Some CSS examples of good and bad practice
+- 
 
 
-## JS Workshops
+## CSS Layouts
 
-- [BSC1a-buttons](https://github.com/DianaVallverdu-NUA/BSC1a-buttons)
+- normal flow - Illustrative example of normal flow in vertical and horizontal reading languages
 
-- [BSC1a-animating]() - Modifying the CS from JS
+### Flexbox
+- flexbox0 - Creating a flex container
+- flexbox1 - Using flex-flow to wrap and direct content
+- flexbox2 - Flex item alignment
+### CSS Grid
 
-- [BSC1a-draggable_list](https://github.com/DianaVallverdu-NUA/BSC1a-draggable_list)
+- grid0 - Creating a CSS Grid container
+- grid1 - Introducing line-based placement
+- grid2 - Experimenting with line-based placement
+- grid3 - Introducting Grid template areas & subgrids
 
-- [BSC1a-audio_player](https://github.com/DianaVallverdu-NUA/BSC1a-audio_player)
 
-- [BSC1a-scrolling_effects]()
+## JavaScript: Functions, Loops, Iterables
 
-## Data Workshops
+### Functions
+- Default Parameters - Uses default parameters to sort array items alphabetically
+- Anonymous Functions - Using an anonymous function in an event listener
+- Return Values - Displays the purpose of return values in a random number generation
+- Function Scope - Using global and local scope in function definition
 
-- [BSC1a-pulling_data]() - how to pull data both with and without API keys use
+### Loops
+- For Loop - Uses a for...of loop to search for a technician name, returning their name and job title. Uses loops in conjunction with conditional statements, break statements and anonymous functions.
+ 
 
-- [BSC1a-api_gallery]() - a gallery built from an api
+## JavaScript: Arrays, Objects, Events
 
-- [BSC1a-life_data]() - how to use the setInterval function to pull data in real time
+### Arrays
+- Array Methods - Recipe webpage iterating through an array of content for display. Demonstrates the array methods, including .filter().
 
-- [BSC1a-tabular_data]() - getting and displaying tabular data
+
+## JavaScript: Advanced Methods
