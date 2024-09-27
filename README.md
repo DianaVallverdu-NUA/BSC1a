@@ -5,7 +5,7 @@ List of projects that are relevant to BSC1a
 ## Introductory Workshops
 - [BSC1a-git](https://github.com/DianaVallverdu-NUA/BSC1a-git) - Introduction to git
 
-## HTML Workshops
+## HTML Workshop
 
 - [BSC1a-HTML](https://github.com/DianaVallverdu-NUA/BSC1a-HTML)
 
