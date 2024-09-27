@@ -1,0 +1,50 @@
+/* Style 2: Vintage Refined */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+    color: #5d4037;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8e7d9;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lora', serif;
+    margin-top: 30px;
+}
+
+h1 { font-size: 2.8em; color: #3e2723; font-weight: 700; text-shadow: 2px 2px 4px rgba(0,0,0,0.1); }
+h2 { font-size: 2.2em; color: #4e342e; font-weight: 400; }
+h3 { font-size: 1.8em; color: #5d4037; font-weight: 700; font-variant-caps: small-caps; letter-spacing: 1px; }
+h4 { font-size: 1.4em; color: #6d4c41; font-weight: 400; font-style: italic; }
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 1.05em;
+}
+
+nav {
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #8d6e63;
+    color: #f8e7d9;
+    border: none;
+    padding: 12px 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6d4c41;
+}

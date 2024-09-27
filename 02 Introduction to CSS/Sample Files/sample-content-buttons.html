@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Examples</title>
+    <!-- The stylesheet link with an id for easy JavaScript manipulation -->
+    <link id="stylesheet" rel="stylesheet" href="style1.css">
+
+    <script defer>
+        // Function to change the stylesheet
+        function changeStylesheet(sheet) {
+            // Changes the href attribute of the stylesheet link
+            document.getElementById("stylesheet").setAttribute("href", sheet);
+        }
+
+        // Function to remove the stylesheet
+        function removeStylesheet() {
+            // Sets the href attribute to an empty string, removing custom styles
+            document.getElementById("stylesheet").setAttribute("href", "");
+        }
+    </script>
+
+</head>
+<body>
+    <header>
+        <!-- Navigation bar with buttons to switch between different styles -->
+        <nav>
+            <!-- Each button calls the changeStylesheet function with a different CSS file -->
+            <button onclick="changeStylesheet('style1.css')">Style 1</button>
+            <button onclick="changeStylesheet('style2.css')">Style 2</button>
+            <button onclick="changeStylesheet('style3.css')">Style 3</button>
+            <button onclick="changeStylesheet('style4.css')">Style 4</button>
+            <button onclick="changeStylesheet('style5.css')">Style 5</button>
+            <!-- The 'Default' button removes all custom styling -->
+            <button onclick="removeStylesheet()">Default</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Main content area with examples of different heading levels and paragraphs -->
+        <h1>This is an H1 Heading</h1>
+        <p>This is some example body copy. It demonstrates how the main text of your document will look with the selected stylesheet.</p>
+        
+        <h2>This is an H2 Heading</h2>
+        <p>Here's some more body text to show how paragraphs are styled and spaced.</p>
+        
+        <h3>This is an H3 Heading</h3>
+        <p>The different levels of headings help to organize your content hierarchically.</p>
+        
+        <h4>This is an H4 Heading</h4>
+        <p>Each stylesheet will style these elements differently, showcasing various design possibilities.</p>
+    </main>
+
+
+</body>
+</html>
