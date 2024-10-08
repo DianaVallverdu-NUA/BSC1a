@@ -7,11 +7,10 @@ List of projects that are relevant to BSC1a
 
 ## HTML Workshops
 
-- [BSC1a-HTML](https://github.com/DianaVallverdu-NUA/BSC1a-HTML)
+- [BSC1a-HTML & CSS](https://github.com/DianaVallverdu-NUA/BSC1a-HTML) - Introduction to both HTML and CSS
 
 ## CSS Workshops
 
-- [BSC1a-CSS](https://github.com/DianaVallverdu-NUA/BSC1a-CSS) - Introduction to CSS
 
 - [BSC1a-gallery](https://github.com/DianaVallverdu-NUA/BSC1a-gallery) - Use of media queries to build a gallery
 
