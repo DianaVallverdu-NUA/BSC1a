@@ -103,7 +103,7 @@ const cleanup = function(){
 latestRecipes = latestRecipes.filter(function(recipe)
     {
         // Adjust the condition below to filter recipes based on one of the 3 boolean properties we gave them
-        if (recipe.vegan) {
+        if (recipe.glutenFree) {
             return recipe;
         }
         else {
