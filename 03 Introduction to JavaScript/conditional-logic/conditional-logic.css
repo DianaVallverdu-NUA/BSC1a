@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(89, 153, 188);
+}
+section{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2{
+    font: 5em bold helvetica, arial, sans-serif;
+    color:rgb(17, 7, 78);
+}
+
+#weather {
+    font-size: 2em;
+    mix-blend-mode: overlay;
+}
