@@ -2,6 +2,26 @@
 //     "Perfect Roast Potatoes", "Butter Chicken", "Apple & Blackberry Crumble"];
 
 
+//CONSTRUCTOR ARRAY
+function LatestRecipes(recName, v, vG, gF) {
+    this.name = recName;
+    this.vegetarian = v;
+    this.vegan = vG;
+    this.glutenFree = gF;
+};
+
+let latestRecipes =[
+    new LatestRecipes("Triple Chocolate Cookies", true, false, false),
+    new LatestRecipes("Classic Crepes", true, false, false ),
+    new LatestRecipes("Beef Stroganoff", false, false, true),
+    new LatestRecipes("Maple & Pecan Roulade", true, false, true),
+    new LatestRecipes("Vegan Tiramisu", true, true, false),
+    new LatestRecipes("Perfect Roast Potatoes", true, true, true),
+    new LatestRecipes("Butter Chicken", false, false, true),
+    new LatestRecipes("Apple & Blackberry Crumble", true, false, true),
+];
+
+
 /*
 We've turned our array of recipes into an array of objects. 
 This means we can add multiple properties to each of our recipes,
@@ -9,57 +29,57 @@ including the recipe name, and information on whether the recipe
 is vegetarian, vegan, or gluten free.
 */
 
-let latestRecipes = [
-    {
-        name: "Triple Chocolate Cookies",
-        vegetarian: true,
-        vegan: false,
-        glutenFree: false,
-    },
-    {
-        name: "Classic Crepes",
-        vegetarian: true,
-        vegan: false,
-        glutenFree: false,
-    },
-    {
-        name: "Beef Stroganoff",
-        vegetarian: false,
-        vegan: false,
-        glutenFree: true,
-    },
-    {
-        name: "Maple & Pecan Roulade",
-        vegetarian: true,
-        vegan: false,
-        glutenFree: true,
-    },
-    {
-        name: "Vegan Tiramisu",
-        vegetarian: true,
-        vegan: true,
-        glutenFree: false,
-    },
-    {
-        name: "Perfect Roast Potatoes",
-        vegetarian: true,
-        vegan: true,
-        glutenFree: true,
-    },
-    {
-        name: "Butter Chicken",
-        vegetarian: false,
-        vegan: false,
-        glutenFree: true,
-    },
-    {
-        name: "Apple & Blackberry Crumble",
-        vegetarian: true,
-        vegan: false,
-        glutenFree: false,
-    },
+// let latestRecipes = [
+//     {
+//         name: "Triple Chocolate Cookies",
+//         vegetarian: true,
+//         vegan: false,
+//         glutenFree: false,
+//     },
+//     {
+//         name: "Classic Crepes",
+//         vegetarian: true,
+//         vegan: false,
+//         glutenFree: false,
+//     },
+//     {
+//         name: "Beef Stroganoff",
+//         vegetarian: false,
+//         vegan: false,
+//         glutenFree: true,
+//     },
+//     {
+//         name: "Maple & Pecan Roulade",
+//         vegetarian: true,
+//         vegan: false,
+//         glutenFree: true,
+//     },
+//     {
+//         name: "Vegan Tiramisu",
+//         vegetarian: true,
+//         vegan: true,
+//         glutenFree: false,
+//     },
+//     {
+//         name: "Perfect Roast Potatoes",
+//         vegetarian: true,
+//         vegan: true,
+//         glutenFree: true,
+//     },
+//     {
+//         name: "Butter Chicken",
+//         vegetarian: false,
+//         vegan: false,
+//         glutenFree: true,
+//     },
+//     {
+//         name: "Apple & Blackberry Crumble",
+//         vegetarian: true,
+//         vegan: false,
+//         glutenFree: false,
+//     },
 
-];
+// ];
 
 
 // global variable initialization
@@ -103,7 +123,7 @@ const cleanup = function(){
 latestRecipes = latestRecipes.filter(function(recipe)
     {
         // Adjust the condition below to filter recipes based on one of the 3 boolean properties we gave them
-        if (recipe.glutenFree) {
+        if (recipe.vegetarian) {
             return recipe;
         }
         else {
