@@ -23,13 +23,10 @@ List of projects that are relevant to BSC1a
 
 - [BSC1a-audio_player](https://github.com/DianaVallverdu-NUA/BSC1a-audio_player)
 
-- [BSC1a-scrolling_effects]()
 
 ## Data Workshops
 
-- [BSC1a-pulling_data]() - how to pull data both with and without API keys use
-
-- [BSC1a-api_gallery]() - a gallery built from an api
+- [BSC1a-data_fetch](https://github.com/DianaVallverdu-NUA/BSC1a-data_fetch) - how to pull data both with and without API keys use
 
 - [BSC1a-life_data]() - how to use the setInterval function to pull data in real time
 
