@@ -3,6 +3,7 @@ let latestRecipes = ["Triple Chocolate Cookies", "Classic Crepes", "Mushroom Str
 ];
 
 let i = 0;
+//let h2 = document.querySelector("article:nth-of-type("+i+") h2")
 let h2 = document.getElementById("Art"+ i);
 
 const recipeCarousel = function()
@@ -11,6 +12,7 @@ const recipeCarousel = function()
     console.log(recipe);
     i = latestRecipes.indexOf(recipe)+1;
     console.log(i);
+    //h2 = document.querySelector("article:nth-of-type("+i+") h2");
     h2 = document.getElementById("Art"+i);
     console.log(h2);
     h2.innerHTML = recipe.toString();
