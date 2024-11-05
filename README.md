@@ -28,6 +28,6 @@ List of projects that are relevant to BSC1a
 
 - [BSC1a-data_fetch](https://github.com/DianaVallverdu-NUA/BSC1a-data_fetch) - how to pull data both with and without API keys use
 
-- [BSC1a-life_data]() - how to use the setInterval function to pull data in real time
+- [BSC1a-live_data](https://github.com/DianaVallverdu-NUA/BSC1a-live_data) - how to use the setInterval function to pull data in real time
 
-- [BSC1a-tabular_data]() - getting and displaying tabular data
+- **BONUS:** [BSC1a-counter-API](https://github.com/DianaVallverdu-NUA/Counter-API) - extra class done in class, the updating of the counter is not working fully
